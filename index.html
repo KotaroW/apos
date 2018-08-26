@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hi there</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' href=''>
+    
+    <script>
+    var xhr = new XMLHttpRequest();
+    xhr.onload = function () {
+        alert (xhr.responseText);
+    };
+    xhr.open('get', './README.md', true);
+    xhr.send(null);
+    
+    </script>
+  </head>
+  <body>
+
+
+
+  </body>
+</html>
