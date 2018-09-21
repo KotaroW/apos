@@ -23,3 +23,7 @@ static site generator written in Ruby which powers thousands of websites, includ
 
 1. Ordered item 1
   + Ordered sub item 1
+
+```{r}
+summary(cars)
+```
